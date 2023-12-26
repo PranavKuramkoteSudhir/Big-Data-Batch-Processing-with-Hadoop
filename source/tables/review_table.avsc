@@ -1,0 +1,12 @@
+{
+   "type": "record",
+            "name": "news_data",
+            "namespace": "cam.airscholar",
+            "doc": "schema for news data",
+            "fields": [
+                {"name": "ticker", "type": {"type": "array", "items": "string"}},
+                {"name": "title", "type": "string"},
+                {"name": "desc", "type": "string"},
+                {"name": "published_at", "type": "string"}
+            ]
+}
