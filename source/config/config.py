@@ -13,6 +13,6 @@ config = {
     "schema_registry": {
         "schema.registry.url": "https://psrc-5j7x8.us-central1.gcp.confluent.cloud",
         "basic.auth.credentials.source": "USER_INFO",
-        "basic.auth.user.info": "api_key:secret"
+        "basic.auth.user.info": "api_key_client:secret_client"
     }
 }
