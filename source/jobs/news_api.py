@@ -2,7 +2,7 @@ import requests
 from datetime import datetime, timedelta
 import pandas as pd
 
-API_KEY = "KJvdBg4DrM4v9VfTqmvKz7DPORMBVM2K10rinUTc"
+API_KEY = "api_key"
 
 def run_news_api(api_key=API_KEY):
     try:
